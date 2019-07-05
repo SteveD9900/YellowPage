@@ -1,0 +1,917 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Archivo:400,400i,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Tradie Picker Tool | Yellow Pages</title>
+  </head>
+  <body>
+    <header id="header">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-lg-12 center-align">
+					<a href="https://www.yellow.com.au/"><img id="main-logo" src="images/logo.png" alt="Yellow Pages"/></a>
+					<button id="back-btn"></button>
+					<button id="restart-btn"></button>
+					<div class="btn_home_group">
+						<button class="renovate-room-btn renovate-room-btn-img"><img src="images/house.png" alt=""></button>
+						<a class="renovate-room-btn btn_home"href="">Renovate a different room</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	
+	<section id="main-area">
+	
+		<!-- INTRO SECTION -->
+		<div id="section-intro" class="section-block active">
+			<div class="container">
+				<div class="row">
+					<div class="offset-lg-2 col-lg-8 center-align">
+						<h1><strong>Tradie Picker Tool</strong></h1>
+						<p>Renovations can be a long and stressful time for any household and starting it off on the best footing possible can mean the difference between a 6 month quoted renovation and a 2 year extension.</p>
+						<p>Whether you're looking to renovate your bathroom, back yard or your whole house, one of the most important yet difficult tasks is finding the right people to make it happen. Use our Tradie Picker Tool to find out who you'll need for your next big project!</p>
+						<button class="normal-btn btn" data-next="#section-one" data-curr="#section-intro" data-prev="#section-intro">Start</button>
+					</div>
+				</div>
+			</div>
+
+			<div class="intro_img">
+				<img src="images/p2_2.png" alt="">
+			</div>
+		</div>
+		
+		<!-- FIRST SECTION -->
+		<div id="section-one" class="section-block">
+			<div class="container">
+					<div class="row">
+							<div class="offset-lg-4 col-lg-4 center-align">
+									<span class="h5 renovation_title">Section 1: </span><span>Involvement</span>
+								<hr>
+								<ul class="list-inline">
+									<li><div class="circle_bg selected_circle section1">1</div></li>
+									<li><div class="circle_bg section2">2</div></li>
+									<li><div class="circle_bg section3">3</div></li>
+									<li><div class="circle_bg section4">4</div></li>
+								</ul>
+							</div>
+					</div>
+				<div class="row">
+					<div class="offset-lg-2 col-lg-8 center-align">
+						<h3><strong>How much involvement do you want in your reno planning and execution?</strong></h3>
+						<img src="images/sectionone-img.png" alt=""/>
+						<button class="normal-btn btn" data-next="#section-contractor" data-prev="#section-intro" data-curr="#section-one">&nbsp; I want to approve designs and let a pro take care of the rest </button>
+						<button class="normal-btn btn" data-next="#section-designer" data-prev="#section-intro" data-curr="#section-one">I want to approve designs and choose all my own contractors</button>
+					</div>
+				</div>
+			</div>
+		</div>
+    
+    <!-- CONTRACTOR SECTION -->
+		<div id="section-contractor" class="section-block">
+			<div class="container">
+				<div class="row">
+					<div class="offset-lg-2 col-lg-8 center-align">
+						<h3><strong>YOU NEED: A contractor</strong></h3>
+						<img src="images/sectioncontractor-img.png" alt="Contractor"/>
+            <p>A licensed contractor will manage the entire production for you from start to finish. They will design the renovation according to the ideas and goals you give them (or hire a designer), then give you an estimate of the total cost, including supplies, work time from other tradies, and their own charge.</p>
+						<a href="https://www.yellowpages.com.au/search/listings?clue=Contractors--General&locationClue=&lat=&lon=" class="btn"  data-curr="#section-contractor" data-prev="#section-one" target="_blank">Get free quotes from contractors near you</a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- DESIGNER AND BUILDER SECTION -->
+		<div id="section-designer" class="section-block">
+			<div class="container">
+				<div class="row">
+					<div class="offset-lg-2 col-lg-8 center-align">
+						<h4><strong>YOU NEED: A designer, a builder, a carpenter, an electrician, a plumber, a plasterer, a painter, or more.</strong></h4>
+						<br>
+						<ul class="list-inline">
+							<li><img src="images/p5.png" alt="Contractor"/></li>
+							<li><img src="images/p5_2.png" alt="Contractor"/></li>
+							<li><img src="images/p5_3.png" alt="Contractor"/></li>
+							<li><img src="images/p5_4.png" alt="Contractor"/></li>
+							<li><img src="images/p5_5.png" alt="Contractor"/></li>
+							<li><img src="images/p5_6.png" alt="Contractor"/></li>
+							<li><img src="images/p5_7.png" alt="Contractor"/></li>
+						</ul>
+						<div class="text-content center-align">
+								<p>A full-house renovation is easily the largest task possible and organising it all yourself is essentially a full-time job, so you’ll need to prepare to invest just as much time into planning and managing this project as a professional contractor would.</p>
+								
+								<p>Fortunately, finding all of the services you need in your area and getting in touch with each one for quotes is easy with Yellow Pages.</p>
+								<a id="go_renovation" class="normal-btn  btn" href="" data-curr="#section-designer" data-prev="#section-one" data-next="#section-renovation" target="_blank">Next question</a>
+							</div>
+						</div>
+					</div>
+			</div>
+		</div>
+
+		<!-- RENOVATION SECTION -->
+		<div id="section-renovation" class="section-block">
+			<div class="container">
+				<div class="row">
+					<div class="offset-lg-4 col-lg-4 center-align">
+							<span class="h5 renovation_title">Section 2: </span><span>Renovation</span>
+						<hr>
+						<ul class="list-inline">
+							<li><div class="circle_bg section1">1</div></li>
+							<li><div class="circle_bg selected_circle section2">2</div></li>
+							<li><div class="circle_bg section3">3</div></li>
+							<li><div class="circle_bg section4">4</div></li>
+						</ul>
+					</div>
+			</div>
+
+			<div class="row">
+					<div class="offset-lg-3 col-lg-6 center-align">
+						<h4><b>Which room do you want to renovate?</b></h4>
+					</div>
+			</div>
+			<br>
+			
+			<div class="row">
+				<div class="col-sm-3 center-align renovation_items">
+					<div class="renovation_image">
+						<a href="" class="go_kitchen normal-img-btn" data-curr="#section-renovation" data-prev="#section-designer" data-next="#section-kitchen">
+							<img src="images/p6_3.png" alt="">
+						</a>
+					</div>		
+					<br>
+					<a id="" href="" class="normal-btn btn go_kitchen" data-curr="#section-renovation" data-prev="#section-designer" data-next="#section-kitchen" target="">Kitchen</a>
+				</div>
+				<div class="col-sm-3 col-lg-3 center-align renovation_items">
+					<div class="renovation_image">
+						<a href="" class="go_bathroom normal-img-btn" data-curr="#section-renovation" data-prev="#section-designer" data-next="#section-Bathroom">
+							<img src="images/p6_4.png" alt="">
+						</a>
+					</div>
+					<br>
+					<a id="" href="" class="normal-btn btn go_bathroom" data-curr="#section-renovation" data-prev="#section-designer" data-next="#section-Bathroom" target="">Bathroom</a>
+				</div>
+				<div class="col-sm-3 col-lg-3 center-align renovation_items">
+					<div class="renovation_image">
+						<a href="" class="go_living_area normal-img-btn" data-curr="#section-renovation" data-prev="#section-designer" data-next="#section-living-area">
+							<img src="images/p6_5.png" alt="">
+						</a>
+					</div>
+					<br>
+					<a id="" href="" class="normal-btn btn go_living_area" data-curr="#section-renovation" data-prev="#section-designer" data-next="#section-living-area" target="">Living Area</a>
+				</div>
+				<div class="col-sm-3 col-lg-3 center-align renovation_items">
+					<div class="renovation_image_bed">
+
+					</div>
+					<div class="renovation_image_bed_a">
+						<a class="go_bedroom normal-img-btn" href="" data-curr="#section-renovation" data-prev="#section-designer" data-next="#section-bedroom">
+							<img src="images/p6_6.png" alt="">
+						</a>
+					</div>
+					<br>
+					<a id="" href="" class="normal-btn btn go_bedroom" data-curr="#section-renovation" data-prev="#section-designer" data-next="#section-bedroom" target="">Bedroom</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<!-- KITCHEN SECTION -->
+	<div id="section-kitchen" class="section-block">
+			<div class="container">
+				<div class="row">
+					<div class="offset-lg-4 col-lg-4 center-align">
+						<span class="h5 renovation_title">Section 2: </span><span>Renovation</span>
+						<hr>
+						<ul class="list-inline">
+							<li><div class="circle_bg section1">1</div></li>
+							<li><div class="circle_bg selected_circle section2">2</div></li>
+							<li><div class="circle_bg section3">3</div></li>
+							<li><div class="circle_bg section4">4</div></li>
+						</ul>
+					</div>
+			</div>
+
+			<div class="row">
+					<div class="offset-lg-2 col-lg-8 center-align">
+						<span class="h4"><b>Which area of the kitchen are you looking to renovate?</b></span>
+					</div>
+			</div>
+			<br><br>
+		</div>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-sm-1">
+
+				</div>
+				<div class="col-xs-6 col-sm-2 col-lg-2 center-align kitchen_items align-self-end img_but">
+					<div class="kitchen_image">
+						<a href="" class="go_benchtops normal-img-btn" data-curr="#section-kitchen" data-prev="#section-renovation" data-next="#section-Benchtops">
+							<img src="images/p7.png" alt="">
+						</a>
+					</div>		
+					<a id="" href="" class="normal-btn btn go_benchtops" data-curr="#section-kitchen" data-prev="#section-renovation" data-next="#section-Benchtops" target="">Benchtops</a>
+				</div>
+				<div class="col-xs-6 col-sm-2 col-lg-2 center-align kitchen_items align-self-end img_but">
+					<div class="kitchen_image kitchen_odd_elements">
+						<a href="" class="normal-img-btn" data-curr="#section-kitchen" data-prev="#section-renovation" data-next="#section-Electrician-Plumber">
+							<img src="images/p7_2.png" alt="">
+						</a>
+					</div>		
+					<a href="" class="normal-btn btn" data-curr="#section-kitchen" data-prev="#section-renovation" data-next="#section-Electrician-Plumber" target="">Appliances</a>
+				</div>
+				<div class="col-xs-6 col-sm-2 col-lg-2 center-align kitchen_items align-self-end img_but">
+					<div class="kitchen_image flooring_img">
+						<a href="" class="go_flooring normal-img-btn" data-curr="#section-kitchen" data-prev="#section-renovation" data-next="#section-Flooring">
+							<img src="images/p7_3.png" alt="">
+						</a>
+					</div>		
+					<a id="" href="" class="normal-btn btn go_flooring" data-curr="#section-kitchen" data-prev="#section-renovation" data-next="#section-Flooring" target="">Floorings</a>
+				</div>
+				<div class="col-xs-6 col-sm-2 col-lg-2 center-align kitchen_items align-self-end img_but">
+					<div class="kitchen_image kitchen_odd_elements">
+						<a href="" class="go_cabinetry normal-img-btn" data-curr="#section-kitchen" data-prev="#section-renovation" data-next="#section-Cabinetry">
+							<img src="images/p7_4.png" alt="">
+						</a>
+					</div>		
+					<a id="" href="" class="normal-btn btn go_cabinetry" data-curr="#section-kitchen" data-prev="#section-renovation" data-next="#section-Cabinetry" target="">Cabinetry</a>
+				</div>
+				<div class="col-xs-6 col-sm-2 col-lg-2 center-align kitchen_items align-self-end img_but">
+					<div class="kitchen_image kitchen_last_element">
+						<a href="" class="go_addition normal-img-btn" data-curr="#section-kitchen" data-prev="#section-renovation" data-next="#section-contractor">
+							<img src="images/p7_5.png" alt="">
+						</a>
+					</div>		
+					<a href="" class="normal-btn btn go_addition" data-curr="#section-kitchen" data-prev="#section-renovation" data-next="#section-contractor" target="">Everything</a>
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+	<!-- CABINET INSTALLER SECTION -->
+	<div id="section-Cabinetry" class="section-block" data-show-inovate="true">
+			<div class="container">
+				<div class="row">
+					<div class="offset-lg-4 col-lg-4 center-align">
+						<b>YOU NEED: A cabinet installer.</b>
+					</div>
+				</div>
+				<div class="row">
+					<div class="offset-lg-4 col-lg-4 center-align">
+							<img src="images/p8_2.png" alt="">
+					</div>			
+				</div>
+				
+				<div class="row">
+					<div class="offset-lg-2 col-lg-8 text-content center-align">
+						<p>Hiring a cabinet installer will ensure those doors and drawers open and close properly, everything is level, and nothing is out of place. Before choosing your installer take a look at their reviews to make sure you’re setting yourself up for a reliable tradie and a breezy installation.</p>
+						<a id="go_electrician_plumber" href="https://www.yellowpages.com.au/search/listings?clue=Cabinet+Maker+%26+installer&locationClue=All+States&lat=&lon=&selectedViewMode=list" class="btn" data-curr="#section-Cabinetry" data-prev="#section-kitchen" data-next="#section-Electrician-Plumber" target="_blank">Get free quotes from cabinet installers near you</a>
+					</div>
+				</div>
+				
+		</div>
+	</div>
+
+	<!-- ELECTRICIAN PLUMBER SECTION -->
+	<div id="section-Electrician-Plumber" class="section-block" data-show-inovate="true">
+			<div class="container">
+				<div class="row">
+					<div class="offset-lg-3 col-lg-6 center-align">
+						<h4>YOU NEED: An electrician or a plumber.</h4>
+					</div>
+				</div>
+				<br><br>
+				<div class="row">
+					<div class="offset-lg-3 col-lg-3 center-align">
+						<img src="images/p9.png" alt="">
+					</div>
+					<div class="col-lg-3 center-align">
+						<img src="images/p9_2.png" alt="">
+					</div>			
+				</div>
+				
+				<div class="row">
+					<div class="offset-lg-2 col-lg-8 text-content center-align">
+						<p>If the store doesn’t install it for you, you may need an electrician or a plumber to install your new appliances. A plumber will install your dishwasher, while an electrician is needed for other areas such as a gas stove tops and range hoods. Find the best contractors and what you’ll expect to pay with Yellow Quotes.</p>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-lg-6 center-align">
+							<a id="go_plumber" href="https://www.yellowpages.com.au/search/listings?clue=plumbers&locationClue=All+States&lat=&lon=&selectedViewMode=list" class="btn" data-curr="#section-Electrician-Plumber" data-prev="#section-kitchen" data-next="" target="_blank">Get free quotes from plumbers near you</a>
+					</div>
+
+					<div class="col-lg-6 center-align">
+							<a href="https://www.yellowpages.com.au/search/listings?clue=Electricians+%26+Electrical+Contractors&locationClue=All+States&lat=&lon=&selectedViewMode=list" class="btn" data-curr="#section-Electrician-Plumber" data-prev="#section-kitchen" data-next="" target="_blank">Get free quotes from electricians near you</a>
+					</div>
+				</div>
+				
+		</div>
+	</div>
+
+	<!-- FLOORING SECTION -->
+	<div id="section-Flooring" class="section-block" data-show-inovate="true">
+			<div class="container">
+				<div class="row">
+					<div class="offset-lg-3 col-lg-6 center-align">
+						<h4>YOU NEED: A flooring contractor.</h4>
+					</div>
+				</div>
+				<br><br>
+				<div class="row">
+					<div class="offset-lg-3 col-lg-3 center-align article_img">
+						<img src="images/p7_3.png" alt="">
+					</div>
+					<div class="col-lg-3 center-align article_img">
+						<img src="images/p10.png" alt="">
+					</div>			
+				</div>
+				
+				<div class="row">
+					<div class="offset-lg-2 col-lg-8 text-content center-align">
+						<p>A flooring contractor is someone who can install your wooden floors or tiles with precision. That is to say, the patterns will actually lineup, the tiles won’t come loose, the pieces will fit around corners, and you won’t be feeling odd bumps in your floors for years to come.</p>
+						<a id="" href="https://www.yellowpages.com.au/search/listings?clue=fllooring+contractors&locationClue=All+States&lat=&lon=&selectedViewMode=list" class="btn" data-curr="#section-Flooring" data-prev="" data-next="" target="_blank">Get free quotes from flooring contractors near you</a>
+					</div>
+				</div>				
+		</div>
+	</div>
+
+	<!-- KITCHEN BENCH SECTION -->
+	<div id="section-Benchtops" class="section-block" data-show-inovate="true">
+			<div class="container">
+				<div class="row">
+					<div class="offset-lg-3 col-lg-6 center-align">
+						<h4>YOU NEED: A kitchen bench installer.</h4>
+					</div>
+				</div>
+				<br><br>
+				<div class="row">
+					<div class="offset-lg-4 col-lg-2 center-align align-self-center bentop_img article_img">
+						<img src="images/p11.png" alt="">
+					</div>
+					<div class="col-lg-2 center-align article_img align-self-center">
+						<img src="images/p11_2.png" alt="">
+					</div>			
+				</div>
+				
+				<div class="row">
+					<div class="offset-lg-1 col-lg-10 text-content center-align">
+						<p>Technically speaking, a carpenter, cabinet installer, or general tradesperson could all install a kitchen bench. These workers are adept at dealing with timber, granite, laminate, and marble materials. Simply ask them about their experience with your chosen material and read their reviews to make sure they have the skills for the job.</p>
+						<a id="" href="https://www.yellowpages.com.au/search/listings?clue=kitchen+benchtops&locationClue=All+States&lat=&lon=&selectedViewMode=list" class="btn" data-curr="#section-Benchtops" data-prev="#section-kitchen" data-next="" target="_blank">Get free quotes from kitchen bench installers near you</a>
+					</div>
+				</div>				
+		</div>
+	</div>
+
+	<!-- BATHROOM SECTION -->
+	<div id="section-Bathroom" class="section-block">
+			<div class="container">
+				<div class="row">
+					<div class="offset-lg-4 col-lg-4 center-align">
+						<span class="h5 renovation_title">Section 2: </span><span>Renovation</span>
+						<hr>
+						<ul class="list-inline">
+							<li><div class="circle_bg section1">1</div></li>
+							<li><div class="circle_bg selected_circle section2">2</div></li>
+							<li><div class="circle_bg section3">3</div></li>
+							<li><div class="circle_bg section4">4</div></li>
+						</ul>
+					</div>
+			</div>
+
+			<div class="row">
+					<div class="offset-lg-2 col-lg-8 center-align">
+						<h4><b>Which area of the bathroom are you looking to renovate?</b></h4>
+					</div>
+			</div>
+			<br>
+			
+			<div class="row">
+				<div class="col-sm-4 col-lg-4 center-align img_but">
+					<div class="renovation_image">
+						<a href="" class="normal-img-btn" data-curr="#section-Bathroom" data-next="#section-Plumber">
+							<img class="img_first_second" src="images/p12.png" alt="">
+						</a>
+					</div>		
+					<br>
+					<a id="" href="" class="normal-btn btn btn_same_style" data-curr="#section-Bathroom" data-prev="#section-renovation" data-next="#section-Plumber" target="">The shower, sink and toilet</a>
+				</div>
+				<div class="col-sm-4 col-lg-4 center-align img_but">
+					<div class="renovation_image">
+						<a href="" class="go_flooring normal-img-btn" data-curr="#section-Bathroom" data-prev="#section-renovation" data-next="#section-Flooring">
+							<img class="img_first_second" src="images/p7_3.png" alt="">
+						</a>
+					</div>
+					<br>
+					<a href="" class="normal-btn btn btn_same_style middle_btn go_flooring" data-curr="#section-Bathroom" data-prev="#section-renovation" data-next="#section-Flooring" target="">The flooring</a>
+				</div>
+				<div class="col-sm-4 col-lg-4 center-align img_but">
+					<div class="renovation_image">
+						<a href="" class="normal-img-btn" data-curr="#section-Bathroom" data-next="#section-contractor">
+							<img src="images/p7_5.png" alt="">
+						</a>
+					</div>
+					<br>
+					<a href="" class="normal-btn btn btn_same_style" data-curr="#section-Bathroom" data-prev="#section-renovation" data-next="#section-contractor" target="">The whole bathroom</a>
+				</div>
+				
+			</div>
+		</div>
+	</div>
+
+	<!-- PLUMBER SECTION-->
+	<div id="section-Plumber" class="section-block" data-show-inovate="true">
+		<div class="container">
+			<div class="row">
+				<div class="offset-lg-3 col-lg-6 center-align">
+					<h4>YOU NEED: A plumber.</h4>
+				</div>
+			</div>
+			<br><br>
+			<div class="row">
+				<div class="offset-lg-4 col-lg-1 center-align first_plumber_img article_img">
+					<img src="images/p5_5.png" alt="">
+				</div>
+				<div class="col-lg-3 center-align article_img">
+					<img src="images/p9_2.png" alt="">
+				</div>			
+			</div>
+			
+			<div class="row">
+				<div class="offset-lg-2 col-lg-8 text-content center-align">
+					<p>Seeing as plumbers are specially skilled tradies, this is definitely one area where
+							it’s a good idea to hire a professional. You generally shouldn’t consider DIY apart from changing simple fittings and washers unless you’re a licensed plumber. Keep in mind that for any gas work your plumber will need to have a gasfitting license.</p>
+					<a id="" href="https://www.yellowpages.com.au/search/listings?clue=plumbers&locationClue=All+States&lat=&lon=&selectedViewMode=list" class="btn" data-curr="#section-Plumber" data-prev="#section-Bathroom" data-next="" target="_blank">Get free quotes from plumbers near you</a>
+				</div>
+			</div>				
+		</div>
+	</div>
+
+	<!-- LINVING AREA SECTION-->
+	<div id="section-living-area" class="section-block">
+			<div class="container">
+				<div class="row">
+						<div class="offset-lg-4 col-lg-4 center-align">
+							<span class="h5 renovation_title">Section 2: </span><span>Renovation</span>
+							<hr>
+							<ul class="list-inline">
+								<li><div class="circle_bg section1">1</div></li>
+								<li><div class="circle_bg selected_circle section2">2</div></li>
+								<li><div class="circle_bg section3">3</div></li>
+								<li><div class="circle_bg section4">4</div></li>
+							</ul>
+						</div>
+				</div>
+				<div class="row">
+					<div class="offset-lg-2 col-lg-8 center-align">
+						<h4>What would you like to do with your living area?</h4>
+					</div>
+				</div>
+				<br><br>
+				<div class="row">
+						<div class="col-sm-4 col-lg-4 center-align img_but">
+							<div class="renovation_image">
+								<a href="" class="go_painter normal-img-btn" data-curr="#section-living-area" data-prev="#section-renovation" data-next="#section-Painter">
+									<img class="img_first_second" src="images/p14_2.png" alt="">
+								</a>
+							</div>		
+							<br>
+							<a id="" href="" class="normal-btn btn btn_same_style middle_btn go_painter" data-curr="#section-living-area" data-prev="#section-renovation" data-next="#section-Painter" target="">Repaint it</a>
+						</div>
+						<div class="col-sm-4 col-lg-4 center-align img_but">
+							<div class="renovation_image">
+								<a class="go_carpet normal-img-btn" href="" data-curr="#section-living-area" data-prev="#section-renovation" data-next="#section-Carpet">
+									<img class="img_first_second" src="images/p14_3.png" alt="">
+								</a>
+							</div>
+							<br>
+							<a id="" href="" class="normal-btn btn btn_same_style go_carpet" data-curr="#section-living-area" data-prev="#section-renovation" data-next="#section-Carpet" target="">Recarpet or refloor it</a>
+						</div>
+						<div class="col-sm-4 center-align img_but">
+							<div class="renovation_image">
+								<a href="" class="normal-img-btn" data-curr="#section-living-area" data-next="#section-contractor">
+									<img src="images/p7_5.png" alt="">
+								</a>
+							</div>
+							<br>
+							<a href="" class="normal-btn btn btn_same_style" data-curr="#section-living-area" data-prev="#section-renovation" data-next="#section-contractor" target="">Renovate the whole space</a>
+						</div>
+				</div>
+		</div>
+	</div>
+
+	<!-- PAINTER SECTION-->
+	<div id="section-Painter" class="section-block" data-show-inovate="true" >
+			<div class="container">
+				<div class="row">
+					<div class="offset-lg-3 col-lg-6 center-align">
+						<h4>YOU NEED: A painter.</h4>
+					</div>
+				</div>
+				<br><br>
+				<div class="row">
+					<div class="offset-lg-4 col-lg-4 center-align painter_img">
+						<img src="images/p15.png" alt="">
+					</div>		
+				</div>
+				
+				<div class="row">
+					<div class="offset-lg-2 col-lg-8 text-content center-align">
+						<p>A professional painter will ensure your walls get the attention they deserve. This means proper preparation with sanding and cleaning, painters’ tape and covers over your floors to ensure paint stays where it should, as well as a smooth, streak-free application. They can get the job done quickly and their professional tools will help to ensure a premium finish.
+							</p>
+						<a id="go_" href="https://www.yellowpages.com.au/search/listings?clue=Painters+%26+Decorators&locationClue=All+States&lat=&lon=&selectedViewMode=list" class="btn" data-curr="#section-Painter" data-prev="" data-next="" target="_blank">Get free quotes from painters near you</a>
+					</div>
+				</div>				
+			</div>
+		</div>
+
+	<!-- CARPET INSTALLER SECTION -->
+	<div id="section-Carpet" class="section-block" data-show-inovate="true">
+			<div class="container">
+				<div class="row">
+					<div class="offset-lg-2 col-lg-8 center-align">
+						<h4>YOU NEED: A carpet installer or flooring contractor.</h4>
+					</div>
+				</div>
+				<br><br>
+				<div class="row">
+					<div class="offset-lg-3 col-lg-3 center-align article_img">
+						<img src="images/p7_3.png" alt="">
+					</div>
+					<div class="col-lg-3 center-align article_img">
+						<img src="images/p10.png" alt="">
+					</div>			
+				</div>
+				
+				<div class="row">
+					<div class="offset-lg-2 col-lg-8 text-content center-align">
+						<p>Generally, carpet installers and flooring contractors are both equally capable of fitting carpets and laying solid wood flooring. In both cases, they will usually also include removing and disposing of existing flooring as part of your quote.</p>
+						<a id="go_" href="https://www.yellowpages.com.au/search/listings?clue=fllooring+contractors&locationClue=All+States&lat=&lon=&selectedViewMode=list" class="btn" data-curr="#section-Carpet" data-prev="" data-next="" target="_blank">Get a free quote with Yellow</a>
+					</div>
+				</div>				
+		</div>
+	</div>
+
+		<!-- 	BEDROOM SECTION -->
+		<div id="section-bedroom" class="section-block">
+				<div class="container">
+					<div class="row">
+						<div class="offset-lg-4 col-lg-4 center-align">
+							<span class="h5 renovation_title">Section 2: </span><span>Renovation</span>
+							<hr>
+							<ul class="list-inline">
+								<li><div class="circle_bg section1">1</div></li>
+								<li><div class="circle_bg selected_circle section2">2</div></li>
+								<li><div class="circle_bg section3">3</div></li>
+								<li><div class="circle_bg section4">4</div></li>
+							</ul>
+						</div>
+				</div>
+	
+				<div class="row">
+						<div class="offset-lg-2 col-lg-8 center-align">
+							<h4><b>What would you like to do to your bedroom?</b></h4>
+						</div>
+				</div>
+				<br>
+				
+				<div class="row">
+					<div class="col-sm-3 col-lg-3 center-align renovation_items align-self-end">
+						<div class="renovation_image">
+							<a href="" class="go_painter normal-img-btn" data-curr="#section-bedroom" data-prev="#section-renovation" data-next="#section-Painter">
+								<img src="images/p14_2.png" alt="">
+							</a>
+						</div>		
+						<br>
+						<a id="" href="" class="normal-btn btn go_painter" data-curr="#section-bedroom" data-prev="#section-renovation" data-next="#section-Painter" target="">Repaint it</a>
+					</div>
+					<div class="col-sm-3 col-lg-3 center-align renovation_items align-self-end">
+						<div class="renovation_image">
+							<a href="" class="go_flooring normal-img-btn" data-curr="#section-bedroom" data-prev="#section-renovation" data-next="#section-Carpet">
+								<img src="images/p14_3.png" alt="">
+							</a>
+						</div>
+						<br>
+						<a id="" href="" class="normal-btn btn go_flooring" data-curr="#section-bedroom" data-prev="#section-renovation" data-next="#section-Carpet" target="">Refloor it</a>
+					</div>
+					<div class="col-sm-3 col-lg-3 center-align renovation_items align-self-end">
+						<div class="renovation_image bedroom_third_img">
+							<a href="" class="go_finishing_carpenter normal-img-btn" data-curr="#section-bedroom" data-prev="#section-renovation" data-next="#section-Finishing-carpenter">
+								<img src="images/p17.png" alt="">
+							</a>
+						</div>
+						<br>
+						<a id="" href="" class="normal-btn btn go_finishing_carpenter" data-curr="#section-bedroom" data-prev="#section-renovation" data-next="#section-Finishing-carpenter" target="">New Wardrobe</a>
+					</div>
+					<div class="col-sm-3 col-lg-3 center-align renovation_items align-self-end">
+						<div class="renovation_image">
+							<a href="" class="go_addition normal-img-btn" data-curr="#section-bedroom" data-prev="#section-renovation" data-next="#section-contractor">
+								<img src="images/p7_5.png" alt="">
+							</a>
+						</div>
+						<br>
+						<a href="" class="normal-btn btn go_addition" data-curr="#section-bedroom" data-prev="#section-renovation" data-next="##section-contractor" target="">Everything</a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	<!-- 	FINISHING CARPENTER SECTION -->
+	<div id="section-Finishing-carpenter" class="section-block" value="renovate" data-show-inovate="true">
+			<div class="container">
+				<div class="row">
+					<div class="offset-lg-3 col-lg-6 center-align">
+						<h4>YOU NEED: A finishing carpenter.</h4>
+					</div>
+				</div>
+				<br><br>
+				<div class="row">
+					<div class="col-sm-6 offset-lg-2 col-lg-2 center-align finish_div">
+						<img src="images/p18.png" alt="">
+					</div>
+					<div class="col-sm-6 col-lg-2 center-align finish_div">
+						<img src="images/p20_2.png" alt="">
+					</div>
+					<div class="col-sm-6 col-lg-2 center-align finish_div">
+						<img src="images/p11_2.png" alt="">
+					</div>
+					<div class="col-sm-6 col-lg-2 center-align finish_div_last">
+						<img src="images/p18_3.png" alt="">
+					</div>		
+				</div>
+				
+				<div class="row">
+					<div class="offset-lg-1 col-lg-10 text-content center-align">
+						<p>A finishing carpenter is someone who can take care of all the final touches of a home. They may be a general carpenter with experience in this line of work, or someone who specialises in work such as installing closets, built-in bookshelves, cabinets, trimming, or other areas.</p>
+						<a id="" href="https://www.yellowpages.com.au/search/listings?clue=finishing+carpenter&locationClue=All+States&lat=&lon=&selectedViewMode=list" class="btn" data-curr="#section-Finishing-carpenter" data-prev="#section-bedroom" data-next="" target="_blank">Get free quotes from finishing carpenters near you</a>
+					</div>
+				</div>				
+		</div>
+	</div>
+
+
+	<!-- ADDITION SECTION -->
+	<div id="section-Addition" class="section-block">
+			<div class="container">
+				<div class="row">
+					<div class="offset-lg-4 col-lg-4 center-align">
+							<span class="h5 renovation_title">Section 3: </span><span>Addition</span>
+						<hr>
+						<ul class="list-inline">
+							<li><div class="circle_bg section1">1</div></li>
+							<li><div class="circle_bg section2">2</div></li>
+							<li><div class="circle_bg selected_circle section3">3</div></li>
+							<li><div class="circle_bg section4">4</div></li>
+						</ul>
+					</div>
+			</div>
+
+			<div class="row">
+					<div class="offset-lg-2 col-lg-8 center-align">
+						<h4><b>What are you looking to add to your home?</b></h4>
+					</div>
+			</div>
+			<br>
+			
+			<div class="row">
+				<div class="col-xs-6 col-sm-3 col-lg-3 center-align renovation_items">
+						<div class="renovation_image_bed">
+						</div>
+						<div class="renovation_image_bed_a">
+							<a class="go_bedroom normal-img-btn" href="" data-curr="#section-Addition" data-prev="#section-bedroom" data-next="#section-contractor">
+								<img src="images/p6_6.png" alt="">
+							</a>
+						</div>
+						<br>
+						<a id="" href="" class="normal-btn btn go_bedroom" data-curr="#section-Addition" data-prev="#section-bedroom" data-next="#section-contractor" target="">Bedroom</a>
+				</div>
+				<div class="col-xs-6 col-sm-3 col-lg-3 center-align renovation_items">
+					<div class="renovation_image">
+						<a href="" class="go_bathroom normal-img-btn" data-curr="#section-Addition" data-prev="#section-bedroom" data-next="#section-contractor">
+							<img src="images/p6_4.png" alt="">
+						</a>
+					</div>
+					<br>
+					<a id="" href="" class="normal-btn btn go_bathroom" data-curr="#section-Addition" data-prev="#section-bedroom" data-next="#section-contractor" target="">Bathroom</a>
+				</div>
+				<div class="col-xs-6 col-sm-3 col-lg-3 center-align renovation_items">
+						<div class="renovation_image_bed">
+						</div>
+					<div class="renovation_image_bed_a">
+						<a href="" class="go_outdoor normal-img-btn" data-curr="#section-Addition" data-prev="#section-bedroom" data-next="#section-contractor">
+							<img src="images/p19_2.png" alt="">
+						</a>
+					</div>		
+					<br>
+					<a id="" href="" class="normal-btn btn go_outdoor" data-curr="#section-Addition" data-prev="#section-bedroom" data-next="#section-contractor" target="">Garage</a>
+				</div>
+				
+				<div class="col-xs-6 col-sm-3 col-lg-3 center-align renovation_items">
+					<div class="renovation_image">
+						<a href="" class="go_living_area normal-img-btn" data-curr="#section-Addition" data-prev="#section-bedroom" data-next="#section-contractor">
+							<img src="images/p6_5.png" alt="">
+						</a>
+					</div>
+					<br>
+					<a id="" href="" class="normal-btn btn go_living_area" data-curr="#section-Addition" data-prev="#section-bedroom" data-next="#section-contractor" target="">Living Area</a>
+				</div>
+				
+			</div>
+		</div>
+	</div>
+
+	<!-- ADDITION Outdoor Renovation -->
+	<div id="section-Outdoor" class="section-block">
+			<div class="container">
+				<div class="row">
+					<div class="offset-lg-4 col-lg-4 center-align">
+							<span class="h5 renovation_title"><b>Section 4: </b></span><span>Outdoor Renovation</span>
+						<hr>
+						<ul class="list-inline">
+							<li><div class="circle_bg section1">1</div></li>
+							<li><div class="circle_bg section2">2</div></li>
+							<li><div class="circle_bg section3">3</div></li>
+							<li><div class="circle_bg selected_circle section4">4</div></li>
+						</ul>
+					</div>
+			</div>
+
+			<div class="row">
+					<div class="offset-lg-2 col-lg-8 center-align">
+						<h4><b>What would you like to do with your outdoor area?</b></h4>
+					</div>
+			</div>
+			<br>
+		</div>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-sm-5 offset-lg-1 col-lg-2 center-align outside_layout align-self-end">
+					<div class="outside_image">
+						<a href="" class="go_builder normal-img-btn" data-curr="#section-Outdoor" data-prev="#section-Addition" data-next="#section-Builder">
+							<!-- <img class="saw_outdoor" src="images/p11.png" alt=""> -->
+							<img src="images/p20_2.png" alt="">
+						</a>
+					</div>
+					<br>
+					<a id="" href="" class="normal-btn btn go_builder" data-curr="#section-Outdoor" data-prev="#section-Addition" data-next="#section-Builder" target="">Build a dock</a>
+				</div>
+				<div class="col-sm-5 col-lg-2 center-align outside_layout align-self-end">
+					<div class="outside_image">
+						<a href="" class="go_garden normal-img-btn" data-curr="#section-Outdoor" data-prev="#section-Addition" data-next="#section-Gardener">
+							<img src="images/p20_3.png" alt="">
+						</a>
+					</div>
+					<br>
+					<a id="" href="" class="normal-btn btn go_garden" data-curr="#section-Outdoor" data-prev="#section-Addition" data-next="#section-Gardener" target="">Update the garden</a>
+				</div>
+				<div class="col-sm-5 col-lg-2 center-align outside_layout align-self-end">
+					<div class="outside_image third_fifth_img">
+						<a href="" class="normal-img-btn" data-curr="#section-Outdoor" data-next="#section-Gardener">
+							<img src="images/p20_4.png" class="veg_fence_img" alt="">
+						</a>
+					</div>
+					<br>
+					<a id="" href="" class="normal-btn btn" data-curr="#section-Outdoor" data-prev="#section-Addition" data-next="#section-Gardener" target="">Create a veggie garden</a>
+				</div>
+				<div class="col-sm-5 col-lg-2 center-align outside_layout align-self-end">
+					<div class="outside_image">
+						<a href="" class="go_water_feature normal-img-btn" data-curr="#section-Outdoor" data-prev="#section-Addition" data-next="#section-Water-feature">
+							<img src="images/p20_5.png" alt="">
+						</a>
+					</div>
+					<br>
+					<a id="" href="" class="normal-btn btn go_water_feature" data-curr="#section-Outdoor" data-prev="#section-Addition" data-next="#section-Water-feature" target="">Install a water feature</a>
+				</div>
+				<div class="col-sm-5 col-lg-2 center-align outside_layout align-self-end">
+					<div class="outside_image third_fifth_img">
+						<a href="" class="normal-img-btn" data-curr="#section-Outdoor" data-next="#section-Builder">
+							<img src="images/p20_6.png" class="veg_fence_img" alt="">
+						</a>
+					</div>
+					<br>
+					<a id="" href="" class="btn normal-btn" data-curr="#section-Outdoor" data-prev="#section-Addition" data-next="#section-Builder" target="">Build a fence or gate</a>
+				</div>
+				
+			</div>
+		</div>
+		
+	</div>
+	<!-- BUILDER SECTION-->
+	<div id="section-Builder" class="section-block" data-show-inovate="true">
+		<div class="container">
+			<div class="row">
+				<div class="offset-lg-3 col-lg-6 center-align">
+					<h4>YOU NEED: A builder.</h4>
+				</div>
+			</div>
+			<br><br>
+			<div class="row">
+				<div class="col-sm-6 offset-lg-3 col-lg-2 center-align builder_div align-self-center">
+					<img src="images/p11.png" alt="">
+				</div>
+				<div class="col-sm-6 col-lg-2 center-align builder_div align-self-center">
+					<img src="images/p11_2.png" alt="">
+				</div>	
+				<div class="col-sm-6 col-lg-2 center-align builder_div align-self-center">
+					<img src="images/p10.png" alt="">
+				</div>			
+			</div>
+			
+			<div class="row">
+				<div class="offset-lg-2 col-lg-8 text-content center-align">
+					<p>A professional builder can take your ideas, add their own tips and advice, and draw up plans for an awesome deck for hosting plenty of backyard barbies. They’ll ensure it meets council approval requirements, that everything is level, that nothing breaks or moves, and that it looks good to boot.
+						</p>
+					<a id="" href="https://www.yellowpages.com.au/search/listings?clue=Builders+%26+Building+Contractors&locationClue=All+States&lat=&lon=&selectedViewMode=list" class="btn" data-curr="#section-Builder" data-prev="#section-Outdoor" data-next="" target="_blank">Get free quotes from builders near you</a>
+				</div>
+			</div>				
+		</div>
+	</div>
+
+	<!-- LANDSCAPE OR GRADENER SECTION-->
+	<div id="section-Gardener" class="section-block" data-show-inovate="true" >
+		<div class="container">
+			<div class="row">
+				<div class="offset-lg-3 col-lg-6 center-align">
+					<h4>YOU NEED: A landscaper or gardener.</h4>
+				</div>
+			</div>
+			<br><br>
+			<div class="row">
+				<div class="col-sm-6 offset-lg-1 col-lg-3 center-align graden_div align-self-center ">
+					<img src="images/p22.png" alt="">
+				</div>
+				<div class="col-sm-6 col-lg-3 center-align graden_div align-self-center">
+					<img src="images/p22_2.png" alt="">
+				</div>	
+				<div class="col-sm-6 col-lg-3 center-align graden_div align-self-center col-lg-pull-1 col-sm-pull-1">
+					<img src="images/p20_4.png" alt="">
+				</div>			
+			</div>
+			
+			<div class="row">
+				<div class="offset-lg-2 col-lg-8 text-content center-align">
+					<p>A landscaper is usually handy with anything garden related whereas gardeners are generally more suited to jobs that don’t involve redesigning your backyard. Either tradie can tidy up your existing garden so it will seem like weeds never existed and the lawn doesn’t even know what a bald spot is. Chat to both to find out if they’re capable of the ideas you have in mind, and ask for quotes to see who can stick to your budget.
+						</p>
+				</div>
+			</div>	
+			
+			<div class="row">
+				<div class="col-lg-6 center-align">
+						<a id="go_landscaper" href="https://www.yellowpages.com.au/search/listings?clue=landscapers&locationClue=All+States&lat=&lon=&selectedViewMode=list" class="btn" data-curr="#section-Gardener" data-prev="#section-Outdoor" data-next="" target="_blank">Get free quotes from landscapers near you</a>
+				</div>
+
+				<div class="col-lg-6 center-align">
+						<a id="go_gardener" href="https://www.yellowpages.com.au/search/listings?clue=Gardeners&locationClue=All+States&lat=&lon=&selectedViewMode=list" class="btn" data-curr="#section-Gardener" data-prev="#section-Outdoor" data-next="" target="_blank">Get free quotes from gardeners near you</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- WATER FEATURE SECTION -->
+	<div id="section-Water-feature" class="section-block" data-show-inovate="true">
+		<div class="container">
+			<div class="row">
+				<div class="offset-lg-3 col-lg-6 center-align">
+					<h4>YOU NEED: A water feature specialist.</h4>
+				</div>
+			</div>
+			<br><br>
+			<div class="row">
+				<div class="offset-lg-3 col-lg-3 center-align">
+					<img src="images/p9_2.png" alt="">
+				</div>
+				<div class="col-lg-3 center-align">
+					<img src="images/p20_5.png" alt="">
+				</div>			
+			</div>
+			
+			<div class="row">
+				<div class="offset-lg-2 col-lg-8 text-content center-align">
+					<p>From a fountain to a pond to a full waterfall, a water feature in your back garden will certainly add a touch of class. When you purchase one of these products from a garden centre, the store will often have installers who can do the work for you, or they may have trusted contractors to suggest. A water feature specialist is part landscaper, part plumber, as they must have both garden and plumbing knowledge to make things run smoothly.
+					</p>
+					<a id="" href="https://www.yellowpages.com.au/search/listings?clue=Water+Features%2C+Ponds+%26+Garden+Ornaments&locationClue=All+States&lat=&lon=&selectedViewMode=list" class="btn" data-curr="#section-Water-feature" data-prev="#section-Outdoor" data-next="" target="_blank">Get free quotes from water feature specialists near you</a>
+				</div>
+			</div>
+			
+	</div>
+</div>
+		
+	</section>
+
+    <!-- JavaScript -->
+    <!-- Needs to be jQuery first, then Popper.js, then Bootstrap JS and Site JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="js/site.js"></script>
+  </body>
+</html>

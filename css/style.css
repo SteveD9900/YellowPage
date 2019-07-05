@@ -1,0 +1,604 @@
+/************************
+ *
+ * Generic CSS
+ *
+ ************************/
+ 
+@font-face {
+  font-family: 'Archivo Bold';
+  src: url(fonts/ArchivoBlack.otf);
+}
+ 
+ 
+body {
+	background: #ffce00;
+	max-height: 100vh;
+	/* overflow: hidden; */
+	font-family: 'Archivo', sans-serif;
+	font-size: 18px;
+	line-height: 1.5em;
+	color: #000;
+}
+
+.center-align {
+	text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Archivo Bold', sans-serif;
+}
+
+h1 strong {
+	font-weight: 900;
+	font-size: 48px;
+	line-height: 1.5em;
+	margin-bottom: 50px;
+	display: inline-block;
+}
+
+h3 strong {
+	font-weight: 900;
+	font-size: 40px;
+	line-height: 1.2em;
+	margin-bottom: 50px;
+	display: inline-block;
+}
+
+/************************
+ *
+ * Section Specific CSS
+ *
+ ************************/
+
+#header {
+	padding: 32px 0;
+}
+
+#main-logo {
+	width: 200px;
+}
+
+#back-btn {
+	background: url('../images/back-btn.png') no-repeat center center / cover;
+	width: 40px;
+  height: 55px;
+  border: 0;
+  box-shadow: none;
+  float: left;
+  margin: 23px 0 0 40px;
+	position: absolute;
+	left: 0;
+}
+
+#restart-btn {
+	background: url('../images/restart-btn.png') no-repeat center center / cover;
+	width: 150px;
+	height: 56px;
+	border: 0;
+	box-shadow: none;
+	float: right;
+	margin: 20px 40px 0 0;
+	position: absolute;
+	right: 0;
+}
+
+.btn_home{
+	position: absolute;
+	right: 3%;
+	width: 8%;
+	border: 0;
+	box-shadow: none;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	background: #fff;
+	color: #000;
+	font-family: 'Archivo Bold', sans-serif;
+	font-weight: bold;
+	font-size: 16px;
+	padding: 5px 5px;
+	min-width: 96px;
+	margin-top: -2px;
+	display: none;
+}
+
+.btn_home_group:hover .btn_home{
+	background: black;
+	color: white;
+}
+
+.renovate-room-btn-img{
+	display: none;
+	float: right;
+	position: absolute;
+	right: 3%;
+	top: 0;
+	width: 150px;
+	height: auto;
+	background: #ffce00;
+	border: none;
+}
+
+.renovate-room-btn-img:hover .btn_home{
+	background: black;
+	color: white;
+}
+
+.renovate-room-btn img{
+	width: 130px;
+	height: auto;
+}
+
+.show-renovate-room{
+	display: block !important;
+}
+
+#back-btn:hover, #restart-btn:hover {
+	opacity: 0.8;
+}
+
+#main-area {
+	margin-top: 80px;
+}
+
+.section-block {
+	display: none;
+}
+
+.section-block.active {
+	display: block;
+}
+
+.left{
+	float: left !important;
+	position: absolute !important;
+	left: 7% !important;
+}
+
+
+.section-block img {
+	width: 200px;
+	height: auto;
+	margin-bottom: 30px;
+}
+
+.normal-btn, .btn {
+	border: 0;
+	box-shadow: none;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	background: #fff;
+	color: #000;
+	font-family: 'Archivo Bold', sans-serif;
+	font-weight: bold;
+	font-size: 20px;
+	padding: 15px 20px;
+	min-width: 150px;
+	margin-top: 20px;
+}
+
+.normal-btn:hover, .btn:hover, .btn_home:hover {
+	background: #000;
+	color: #fff;
+}
+
+/* INTRO SECTION */
+.intro_img{
+	/* height: 700px; */
+	position: absolute;
+	right: 10%;
+	bottom: 0;
+}
+
+/* DESIGNER AND BUILDER SECTION */
+
+.list-inline{text-align:center}
+.list-inline li{
+	display:inline-block;
+	margin:5px;
+	box-sizing: border-box;
+	margin: 10px;
+	cursor: pointer;
+}
+
+.list-inline li img{
+	width: auto;
+	height: 90px;
+}
+
+.text-content{
+	width: 84%;
+	margin: auto;
+}
+
+/* RENOVATION SECTION */
+
+.circle_bg { 
+	width: 29px;
+	height: 29px;
+	line-height: 29px;
+	background: #e2e2e2; 
+	font-weight: 600;
+	color: black;
+	-moz-border-radius: 1px; 
+	-webkit-border-radius: 1px; 
+	border-radius: 29px;
+}
+
+.circle_bg:hover{
+	background: black !important;
+	color: white;
+}
+
+ .renovation_title{
+	font-weight: 600;
+	font-family: 'Archivo Bold', sans-serif;
+ }
+
+hr{
+	background: black;
+	border-top: 2px solid rgba(0,0,0,.1);
+ }
+
+.selected_circle{
+	background: black; 
+	color: white;
+ }
+
+.renovation_items:hover .normal-btn, .outside_layout:hover .normal-btn, .img_but:hover .normal-btn{
+	color: white;
+	background: black;
+ }
+
+.renovation_image_bed{
+	min-height: 100px;
+}
+
+.renovation_image_bed_a img{
+	min-height: 100px;
+	margin-bottom: 0px;
+}
+
+.renovation_image{
+	min-height: 200px;
+	margin-bottom: 0px;
+}
+
+ .renovation_image img{
+	margin-bottom: 0px;
+ }
+
+ /* KITCHEN SECTION */
+#section-kitchen span{
+	font-family: 'Archivo Bold';
+}
+
+ .kitchen_items{
+	padding: 0 1.5% 0 1.5%;
+ }
+
+ .kitchen_items img{
+		height: auto;
+    width: 100%;
+ }
+
+ .kitchen_image{
+	min-height: 160px;
+	margin-bottom: 0px;
+ }
+
+ .kitchen_odd_elements{
+	padding: 0 31%;
+ }
+
+ .kitchen_last_element{
+	padding: 0 20%;
+ }
+
+
+ /* CABINET INSTALLER SECTION */
+
+
+ /* ELECTRICIAN PLUMBER SECTION */
+ .first_plumber_img{
+	-webkit-transform:rotate(356deg);
+	-moz-transform: rotate(356deg);
+	-ms-transform: rotate(356deg);
+	-o-transform: rotate(356deg);
+	transform: rotate(356deg);
+ }
+
+
+ /* BATHROOM SECTION */
+ .btn_same_style{
+	font-size: 14px;
+	width: 50px;
+	height: 54px;
+	padding: 5px 20px;
+ }
+
+ .middle_btn{
+	padding-top: 16px;
+ }
+
+ .img_first_second{
+	margin-top: 20%;
+ }
+ 
+ /* PLUMBER SECTION */
+ .first_plumber_img img, .painter_img img{
+	height: 135px;
+	width: auto;
+ }
+
+ /* LINVING AREA SECTION */
+
+ /* BEDROOM SECTION */
+#section-bedroom .renovation_image{
+	min-height: 180px !important;
+  max-height: 200px;
+}
+
+#section-bedroom img{
+	margin-top: 10%;
+}
+
+.bedroom_third_img img{
+	max-height: 190px;
+	width: auto;
+}
+
+/* KITCHEN BENCH SECTION */
+.finish_div img{
+	max-height: 160px;
+	width: auto;
+}
+
+#section-Benchtops .article_img img{
+	max-width: 130px;
+}
+
+.finish_div_last img{
+	max-width: 130px;
+	height: auto;
+}
+
+/* ADDITION SECTION */
+.outside_layout{
+	max-height: 120px;
+	width: auto;
+}
+
+.outside_image{
+	min-height: 158px;
+	margin-bottom: 0px;
+	max-height: 160px;
+}
+
+.outside_layout a{
+	font-size: 15px;
+}
+
+.outside_layout img{
+	width: 140px;
+}
+
+.veg_fence_img{
+	margin-top: 20%;
+}
+
+#section-Outdoor .btn{
+	width: 162px;
+}
+
+.saw_outdoor{
+	max-width: 85px;
+	-webkit-transform:rotate(52deg);
+	-moz-transform: rotate(52deg);
+	-ms-transform: rotate(52deg);
+	-o-transform: rotate(52deg);
+	transform: rotate(52deg);
+ }
+
+.go_builder{
+	height: 74px;
+	line-height: 45px;
+}
+
+/* BUILDER SECTION */
+.builder_div img{
+	max-width: 120px;
+	height: auto;
+}
+
+/* LANDSCAPE OR GRADENER SECTION */
+.graden_div img{
+	max-width: 180px;
+	height: auto;
+}
+
+@media screen and (min-width: 767px) and (max-width: 1000px) {
+	.intro_img{
+		display: none;
+	}
+	.btn_home {
+    position: absolute;
+		right: 5%;
+		width: 10%;
+		font-size: 13px;
+	}
+}
+
+@media screen and (min-width: 1000px) and ( max-width:1440px){
+	.intro_img{
+		position: absolute;
+		right: 2%;
+	}
+	.btn_home {
+    position: absolute;
+		right: 4%;
+		width: 9%;
+		font-size: 13px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	
+	#main-logo {
+		width: 100px;
+	}
+	
+	body {
+		font-size: 15px;
+	}
+	
+	h1 strong {
+		font-size: 28px;
+	}
+
+	h3 strong {
+		font-size: 21px;
+	}
+
+	#main-area {
+    margin-top: 30px;
+	}
+
+	.left{
+		left: 10% !important;
+	}
+
+	.normal-btn, .btn {
+		font-size: 14px;
+		margin-bottom: 10%;
+	}
+
+	#section-designer h4{
+			font-size: 1rem;
+	}
+	
+	#back-btn {
+		width: 17px;
+		height: 27px;
+		top: -10px;
+		left: -30px;
+	}
+	
+	#restart-btn {
+		width: 60px;
+		height: 30px;
+		top: -10px;
+		right: -30px;
+	}
+
+	.intro_img, .saw_outdoor{
+		display: none;
+	}
+
+	.outside_layout{
+		max-height: 580px;
+		width: 50%;
+	}
+
+	.normal-btn{
+		margin-top: 0;
+	}
+
+	.renovation_items, .img_but, .finish_div, .finish_div_last, .article_img, .builder_div, .graden_div{
+		width: 50%;
+	}
+
+	.renovation_image_bed {
+		min-height: 41px;
+	}
+
+	.renovation_image{
+		min-height: 140px;
+	}
+
+	#section-Bathroom .renovation_image{
+		min-height: 100px;
+	}
+
+	#section-bedroom .renovation_image{
+		min-height: 140px !important;
+	}
+
+	.section-block img {
+		width: 138px;
+	}
+
+	#section-designer .list-inline li{
+		width: 25%;
+	}
+
+	.list-inline li img{
+		width: auto;
+		height: 50px;
+	}
+
+	/* #section-kitchen .h3{
+		font-size: 18px !important;
+	} */
+
+	.kitchen_image{
+		min-height: 70px;
+    max-height: 90px;
+    margin-bottom: 0px;
+    margin-top: 20px;
+	}
+
+	.renovate-room-btn-img{
+		width: 96px;
+		height: auto;
+		right: 1%;
+	}
+
+	.btn_home {
+    font-size: 9px;
+    padding: 2px 2px;
+    min-width: 85px;
+		display: none;
+		margin-top: -3px;
+		line-height: 13px;
+    height: 32px;
+	}
+
+	.renovate-room-btn img{
+		width: 59px;
+		height: auto;
+	}
+
+	#section-kitchen img{
+		height: 70px !important;
+    width: auto !important;
+	}
+
+	.kitchen_odd_elements{
+		padding: 0 0;
+	}
+
+	.kitchen_last_element{
+		padding: 0 0;
+	}
+	
+	#section-Outdoor .btn {
+    width: 152px;
+	}
+
+	.first_plumber_img img{
+		width: 80px;
+	}
+
+	.painter_img img{
+		width: 100%;
+	}
+
+	#section-Outdoor .third_fifth_img{
+		margin-top: 40%;
+	}
+
+	#section-Outdoor .outside_image {
+    min-height: 120px;
+	}
+}
+
